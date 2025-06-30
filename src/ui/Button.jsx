@@ -47,3 +47,22 @@ const variations = {
     }
   `,
 };
+
+const Button = styled.button`
+  font-size: 1.4rem;
+  padding: 1.2rem 1.6rem;
+  border: none;
+  border-radius: var(--border-radius-sm);
+  font-weight: 500;
+  border-radius: 7px;
+  background-color: var(--color-brand-600);
+  box-shadow: var(--shadow-sm);
+  color: var(--color-brand-50);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--color-brand-700);
+  }
+`;
+
+export default Button;
